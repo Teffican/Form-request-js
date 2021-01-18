@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form request</title>
+</head>
+<body>
+    
+    <div class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__title">
+                    Contact form
+                </div>
+                <form id="form">
+                    <div class="form__email-title">Email</div>
+                    <input required type="email" placeholder="mail@mail.com">
+                    <div class="form__phone-title">Phone</div>
+                    <input required type="tel" placeholder="+7 (900) 123-45-67" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+                    <div class="form__btn">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
